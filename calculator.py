@@ -15,7 +15,7 @@ def logarithm(x):
     import math
     return round(math.log(x),3)
 def square_root(x):
-    # if x < 0:
-    #     return "Error: Square root is not defined for negative numbers!"
+    if x < 0:
+        return "Error: Square root is not defined for negative numbers!"
     import math
     return math.sqrt(x)
