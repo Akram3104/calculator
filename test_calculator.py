@@ -1,5 +1,5 @@
 import unittest
-from calculator import addition, subtraction, multiplication, division, logarithm, square_root
+from calculator import addition, subtraction
 
 class TestCalculator(unittest.TestCase):
     def test_addition(self):
