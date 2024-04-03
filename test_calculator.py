@@ -24,8 +24,8 @@ class TestCalculator(unittest.TestCase):
         self.assertAlmostEqual(logarithm(-1), "Error: Logarithm is not defined for non-positive numbers!")
     def test_square_root(self):
         self.assertAlmostEqual(square_root(25), 5.0)
-        with self.assertRaises(ValueError):
-            square_root(-1)
+        self.assertAlmostEqual(square_root(-1), "Error: Square root is not defined for negative numbers!")
+       
         
 
 
