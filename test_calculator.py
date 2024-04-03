@@ -7,6 +7,7 @@ import calculator
     (-5, 3, -2),
     (0, 0, 0)
 ])
+@pytest.mark.strict
 def test_addition(num1, num2, expected):
     assert calculator.add(num1, num2) == expected
 
