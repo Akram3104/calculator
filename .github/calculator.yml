@@ -26,4 +26,4 @@ jobs:
       run: pip install math
 
     - name: Run unit tests
-      run: python calculator_test.py
+      run: python test_calculator.py
