@@ -14,3 +14,4 @@ def logarithm(x):
         return "Error: Logarithm is not defined for non-positive numbers!"
     import math
     return round(math.log(x),3)
+
