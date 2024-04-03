@@ -24,4 +24,8 @@ jobs:
 
     - name: Run tests
       run: |
-        python test_calculator.py  # Replace this with the command to run your tests
+        python test_calculator.py
+        if [ $? -ne 0 ]; then
+          echo "Tests failed!"
+          exit 1
+        fi
