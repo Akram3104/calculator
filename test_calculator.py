@@ -9,5 +9,5 @@ import calculator
 ])
 @pytest.mark.strict
 def test_addition(num1, num2, expected):
-    assert calculator.add(num1, num2) == expected
+    assert calculator.addition(num1, num2) == expected
 
