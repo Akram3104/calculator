@@ -20,7 +20,7 @@ class TestCalculator(unittest.TestCase):
         self.assertEqual(divide(5, 0), "Error: Cannot divide by zero!")
     def test_logarithm(self):
         self.assertAlmostEqual(logarithm(1), 0.0)
-        self.assertAlmostEqual(logarithm(10), 2.302)
+        self.assertAlmostEqual(logarithm(10), 2.303)
         self.assertAlmostEqual(logarithm(-1), "Error: Logarithm is not defined for non-positive numbers!")
         
 
